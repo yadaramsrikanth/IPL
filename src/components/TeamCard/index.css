@@ -1,0 +1,28 @@
+/* Write your CSS here */
+.each-team-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 80px;
+}
+.team-name {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-size: 24px;
+  margin-left: 25px;
+}
+.team-image {
+  width: 20%;
+  height: 80px;
+}
+.item-link {
+  text-decoration: none;
+  background-color: #475569;
+  width: 40%;
+  border-radius: 12px;
+
+  padding: 30px;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
